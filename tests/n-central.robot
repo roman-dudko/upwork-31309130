@@ -4,8 +4,6 @@ Test Teardown  End Web Test
 
 Resource  resourses/common.robot
 
-*** Variables ***
-
 
 *** Test Cases ***
 Create vSphere Mahine
@@ -16,5 +14,3 @@ Create vSphere Mahine
     Input Deployment Information
     Input vSphere Information
     Submit Mahine Creation Form
-
-*** Keywords ***

@@ -2,8 +2,6 @@
 Library  SeleniumLibrary
 Variables  variables.yaml
 
-*** Variables ***
-
 
 *** Keywords ***
 Begin Web Test
