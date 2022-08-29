@@ -1,0 +1,16 @@
+---
+app_url: test
+
+username: test
+password: test
+
+business_group: test
+
+lease_days: 10
+machine_name: test
+
+cpu: 2
+memory: 4096
+location: test
+network: test
+iso_mount: test
