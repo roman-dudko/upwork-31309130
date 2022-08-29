@@ -1,11 +1,12 @@
 *** Settings ***
 Library  SeleniumLibrary
-Variables  variables.yaml
+Variables  ../variables.yaml
 
 
 *** Keywords ***
 Begin Web Test
     Open Browser  ${app_url}  ${browser}
+    Maximize Browser Window
 
 End Web Test
     Close Browser

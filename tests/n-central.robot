@@ -1,12 +1,10 @@
 *** Settings ***
-Test Setup  Begin Web Test
-Test Teardown  End Web Test
-
-Resource  resourses/common.robot
+Resource  ../resourses/common.robot
 
 
 *** Test Cases ***
 Create vSphere Mahine
+    [Setup]  Begin Web Test
     Login To Application
     Naviate To Catalog
     Select N-Central From Catalog
@@ -14,3 +12,4 @@ Create vSphere Mahine
     Input Deployment Information
     Input vSphere Information
     Submit Mahine Creation Form
+    [Teardown]  End Web Test
